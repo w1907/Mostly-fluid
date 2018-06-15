@@ -13,3 +13,18 @@
 .container{
 	width: 100%;
 }
+
+@media (min-width:500px){
+	.columna2, .columna3{
+		width: 50%;
+	}
+
+@media (min-width:1000px) {
+	.columna2, .columna3{
+		width: 100%;
+	},
+	.container{
+		width: 100%;
+		margin: 0px auto;
+	}
+}
